@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 
@@ -14,6 +15,16 @@ body {
 {
   margin: 0 auto 0 auto;
  text-align:left;}
+
+
+.minipic {
+height: 120px;
+width: 120px;
+position: absolute;
+margin-left: 50px;
+margin-top: -350px;
+}
+
 
 #container
 {
@@ -137,3 +148,65 @@ p {text-align: left;}
 
 
 
+=======
+body {
+  z-index: 0;
+  background-color: black;
+  background-size: 100%;
+  font-family: Blackout, Century Gothic, sans-serif;
+  bottom: 50px;
+}
+
+#navigation {
+	position: fixed;
+	top: 70%;
+	left: 0;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #D8D8D8;
+	text-align: center;
+	height: 25px; 
+	width: 100%;
+	/* Adds the transparent background */
+	background-color: rgba(1, 1, 1, 0.5);
+	z-index: 5;
+	min-width: 300px;
+}
+
+.symbol {
+	top: 0%;
+	display: block; 
+	margin-left: auto;   
+	margin-right: auto; 
+}
+
+#navigation a{
+	font-size: 14px;
+	padding-left: 15px;
+	padding-right: 15px;
+	color: #D8D8D8;
+	text-decoration: none;
+}
+
+
+#navigation a:hover {
+  color: #FFFFFF;
+}
+
+footer {
+	clear: both;
+	bottom: 0;
+  	left: 0;
+    position: fixed;
+    right: 0;
+	color: #D8D8D8;
+	text-align: center;
+	width: 100%;
+	height: 20px;
+	font-size: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: rgba(1, 1, 1, 0.5);
+	z-index: 5;
+}
+>>>>>>> c632b4dc590b2c4e63e90bb917948410769861a1
