@@ -1,10 +1,21 @@
 body {
   z-index: 0;	
-  background: url('photo/rocks.jpg') 0 0 no-repeat;
+  background: url('photo/rocks.jpg') 0 0 fixed no-repeat;
   background-color: black;
   background-size: 100%;
   font-family: Blackout, Century Gothic, sans-serif;
   bottom: 50px;
+}
+
+.home_pic {
+	background: url('photo/rocks.jpg') center center fixed no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+     background-color: black;
+  background-size: 100%;
+   bottom: 50px;
 }
 
 .Triskele {
@@ -24,7 +35,7 @@ div {
 	top: 50px;
 	clear:both;
 	float:relative;
-	width: 80%;
+	width: 90%;
 	left: 10%;
 	padding-bottom: 100px;
 	margin: 15px;
@@ -53,7 +64,7 @@ div {
 .photos {
 	float: left;
 	display: block;
-	width: 80%;
+	width: 90%;
 	left: 10%;
 	background-color: black; 
 	text-align: left;
@@ -90,11 +101,13 @@ div {
 }
 
 .welcome {
-position: fixed;
-top: 100px;
-left: 25%;
-vertical-align: center;
-z-index: -10;
+	position: fixed;
+	right: 0px;
+	bottom: 50px;
+	z-index: -10;
+	display: block; 
+	margin-left: auto;   
+	margin-right: auto; 
 }
 
 #navigation a{
