@@ -22,6 +22,18 @@ body {
   position: fixed;
   margin: 2px;
   left: 5px;
+  -webkit-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+     
+  -webkit-transition-property: -webkit-transform;
+  -moz-transition-property: -moz-transform;
+  -o-transition-property: -o-transform;
+  transition-property: transform;
+     
+  overflow:hidden;
+
 }
 
 div {
@@ -30,6 +42,13 @@ div {
 	top: 35px;
 	text-align: center;
 }
+
+.Triskele:hover   
+{ 
+    -webkit-transform:rotate(360deg);
+    -moz-transform:rotate(360deg); 
+    -o-transform:rotate(360deg);
+}  
 
 .about {
 	top: 50px;
