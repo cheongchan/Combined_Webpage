@@ -26,6 +26,10 @@ header {
  	margin-left: 10px;
  }
 
+ .minipic a {
+  padding-left: 10px;
+ }
+
  h2 {
  	display: inline-block;
  	vertical-align: center;
