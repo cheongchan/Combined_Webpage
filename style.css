@@ -8,7 +8,7 @@ body {
 
 #navigation {
 	position: fixed;
-	top: 50%;
+	top: 70%;
 	left: 0;
 	padding-top: 5px;
 	padding-bottom: 5px;
@@ -19,6 +19,12 @@ body {
 	/* Adds the transparent background */
 	background-color: rgba(1, 1, 1, 0.5);
 	z-index: 5;
+}
+
+.symbol {
+	position: fixed;
+	top: 0%;
+	left:30%;
 }
 
 #navigation a{
